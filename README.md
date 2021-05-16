@@ -18,11 +18,11 @@ Post and comment on Tech Blogs
 This app is a standalong blog requiring the user to log in to create blogs. Once logged in, they will be able to create logs and view them on their dashboard.
 
 ## Link to Video & App:
-Cigi's Walkthrough ""
+Cigi's Walkthrough <a href="https://vimeo.com/549777367/eab72ccb8a" rel="nofollow">Cigi Blogg</a>
 
 Heroku App Deployed
 
-<a href="https://vimeo.com/549777367/eab72ccb8a" rel="nofollow">Cigi Blogg</a>
+<a href="https://cigiblog.herokuapp.com/" rel="nofollow">Cigi Blogg</a>
 
 ## Contributing Partners ✨
 TAs**, tutorials, tea
@@ -36,7 +36,10 @@ Please run npm install for dependencies and then run node server.js
 This application is covered by the MIT license. Please refer to documention for further information.
 
 ## Demo Images
+![Demo Image](login.jpg?raw=true "Demo Image Login Scree")
 ![Demo Image](demo.jpg?raw=true "Demo Image")
+![Demo Image](blogs.jpg?raw=true "Blogs for Multiple Users")
+![Demo Image](comments.jpg?raw=true "User may comment on blogs")
 
 ## What do I do if I have an issue? 😔
 Contact Us <br />
