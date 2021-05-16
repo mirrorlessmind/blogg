@@ -1,28 +1,36 @@
 {
-  "name": "blogg",
-  "version": "1.0.0",
-  "description": "homework tech blog",
-  "engines": {
-    "node": "14.x"
-  },
-  "main": "./controllers/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "Cigi Tipton",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mirrorlessmind/blogg/issues"
-  },
-  "dependencies": {
-    "bcrypt": "^5.0.0",
-    "connect-session-sequelize": "^6.1.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "express-session": "^1.17.0",
-    "mysql2": "^2.0.1",
-    "sequelize": "^5.21.2"
-  }
+    "name": "blogg",
+    "version": "1.0.0",
+    "description": "new style blog",
+    "main": "server.js",
+    "scripts": {
+        "test": "jest",
+        "start": "node server.js",
+        "watch": "nodemon server.js",
+        "seed": "node seeds/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:mirrorlessmind/blogg.git"
+    },
+    "author": "Cigi Tipton",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mirrorlessmind/blogg/issues"
+    },
+    "homepage": "https://github.com/mirrorlessmind/blogg#readme",
+    "dependencies": {
+        "bcrypt": "^5.0.0",
+        "connect-session-sequelize": "^6.1.1",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^4.0.4",
+        "express-session": "^1.17.1",
+        "mysql2": "^2.1.0",
+        "sequelize": "^5.21.12"
+    },
+    "devDependencies": {
+        "jest": "^26.4.2",
+        "nodemon": "^2.0.4"
+    }
 }
