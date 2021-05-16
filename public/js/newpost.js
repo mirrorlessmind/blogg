@@ -1,3 +1,4 @@
+//async function newFormHandler(event)  
 const newFormHandler = async function(event) {
   event.preventDefault();
 
@@ -20,6 +21,4 @@ const newFormHandler = async function(event) {
     }
   };
 
-document
-  .querySelector('#new-post-form')
-  .addEventListener('submit', newFormHandler);
+document.querySelector('#new-post-form').addEventListener('submit', newFormHandler);
