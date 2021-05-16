@@ -1,7 +1,9 @@
 {
   "name": "blogg",
   "version": "1.0.0",
-  "description": "homework tech blog"
+  "description": "homework tech blog",
+  "engines": {
+    "node": "14.x"
   },
   "main": "index.js",
   "scripts": {
