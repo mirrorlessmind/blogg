@@ -7,7 +7,7 @@
         "test": "jest",
         "start": "node server.js",
         "watch": "nodemon server.js",
-        "seed": "node seeds/index.js"
+        "seed": "node seeds.js"
     },
     "repository": {
         "type": "git",
@@ -30,6 +30,7 @@
         "hbs": "^4.1.2",
         "mysql2": "^2.2.5",
         "path": "^0.12.7",
+        "seeds": "^2.3.1",
         "sequelize": "^5.22.4",
         "sequelize-store": "^0.4.2"
     },
